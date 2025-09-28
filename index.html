@@ -1,0 +1,384 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Raiyan Bin Alam— Portfolio</title>
+  <meta name="description" content="Engineering student portfolio: projects, skills, resume, and contact." />
+  <meta name="theme-color" content="#14b8a6" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="layout">
+    <!-- Sidebar (unique layout) -->
+    <aside class="sidebar" aria-label="Sidebar">
+      <button class="hamburger" id="menuToggle" aria-label="Toggle menu" aria-expanded="false">☰</button>
+      <div class="profile">
+        
+        <h1 class="name">Raiyan Bin Alan</h1>
+        <p class="role">Engineering Student</p>
+        <div class="socials">
+          <a href="https://github.com/Soccho2003" target="_blank" rel="noopener" aria-label="GitHub">GitHub</a>
+          
+          <a href="mailto:raiyanbinalam17@gmail.com" aria-label="Email">Email</a>
+        </div>
+        
+        <button class="btn btn-ghost" id="themeToggle" aria-pressed="false" aria-label="Toggle color theme">🌗 Theme</button>
+      </div>
+
+      <nav class="sidenav" aria-label="Primary">
+        <a href="#about" class="active">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#education">Education</a>
+        <a href="#certificates">Certificates</a>
+        
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="footer-mini">© <span id="yearMini"></span> Raiyan Bin Alam</div>
+    </aside>
+
+    <!-- Main content -->
+    <main id="main" class="content">
+      <!-- Top progress bar -->
+      <div class="progress" id="scrollProgress" aria-hidden="true"></div>
+
+      <!-- Hero / Intro -->
+      <section id="about" class="section">
+        <header class="section-head">
+          <h2>About</h2>
+          <p class="muted">Who I am & what I do</p>
+        </header>
+        <div class="about-grid">
+          <div>
+            <h3 class="headline">Hello! I’m <span class="grad">Raiyan Bin Alam</span> — An engineering student</h3>
+            <p>I’m an Engineering student passionate about transforming ideas into real prototypes. Interested in embedded systems, IoT, and applied machine learning. Focused on building innovative solutions for agriculture and healthcare.</p>
+            <ul class="bullets">
+              <li>Focus: Web, IoT, ML/AI</li>
+              <li>Location: Dhaka, Bangladesh</li>
+              
+            </ul>
+            <div class="chip-row">
+              <span class="chip">C/C++</span>
+              <span class="chip">Python</span>
+              <span class="chip">JavaScript</span>
+              <span class="chip">HTML/CSS</span>
+              <span class="chip">C#</span>
+              <span class="chip">Java</span>
+            </div>
+          </div>
+          <aside>
+            <div class="stats">
+              <div class="stat"><div class="k">12+</div><div class="label">Projects</div></div>
+              <div class="stat"><div class="k">3</div><div class="label">Compitetion Wins</div></div>
+              <div class="stat"><div class="k">1</div><div class="label">Publications</div></div>
+              <div class="stat"><div class="k">8</div><div class="label">Certifications</div></div>
+            </div>
+          </aside>
+        </div>
+
+      
+        <div class="info-cards" role="list">
+          <article class="info-card" role="listitem">
+            <h4>Phone</h4>
+            <p class="value"><a href="tel:+8801601894423">01601894423</a></p>
+            <div class="line" aria-hidden="true"></div>
+          </article>
+          <article class="info-card" role="listitem">
+            <h4>Email</h4>
+            <p class="value"><a href="mailto:raiyanbinalam17@gmail.com">raiyanbinalam17@gmail.com</a></p>
+            <div class="line" aria-hidden="true"></div>
+          </article>
+          <article class="info-card" role="listitem">
+            <h4>Website</h4>
+            <p class="value"><a href="https://www.raiyanbinalam.com" target="_blank" rel="noopener">www.raiyanbinalam.com</a></p>
+            <div class="line" aria-hidden="true"></div>
+          </article>
+          <article class="info-card" role="listitem">
+            <h4>Date of Birth</h4>
+            <p class="value">December 17, 2003</p>
+            <div class="line" aria-hidden="true"></div>
+          </article>
+          <article class="info-card" role="listitem">
+            <h4>Nationality</h4>
+            <p class="value">Bangladeshi</p>
+            <div class="line" aria-hidden="true"></div>
+          </article>
+        </div>
+      </section>
+
+
+
+      <section id="skills" class="section">
+        <header class="section-head">
+          <h2>Skills</h2>
+          <p class="muted">Tech stack & depth</p>
+        </header>
+        <div class="skill-list">
+          <div class="skill"><span>C/C++</span><div class="meter" style="--val:82%"></div></div>
+          <div class="skill"><span>JavaScript</span><div class="meter" style="--val:78%"></div></div>
+          <div class="skill"><span>Python</span><div class="meter" style="--val:86%"></div></div>
+          <div class="skill"><span>HTML/CSS</span><div class="meter" style="--val:90%"></div></div>
+          <div class="skill"><span>MATLAB</span><div class="meter" style="--val:60%"></div></div>
+          <div class="skill"><span>C#</span><div class="meter" style="--val:92%"></div></div>
+          <div class="skill"><span>Java</span><div class="meter" style="--val:72%"></div></div>
+          <div class="skill"><span>Proteus</span><div class="meter" style="--val:72%"></div></div>
+        </div>
+      </section>
+
+      <!-- Projects (filterable) -->
+      <section id="projects" class="section">
+        <header class="section-head">
+          <h2>Projects</h2>
+          <p class="muted">Selected work</p>
+        </header>
+
+        <div class="filters" role="toolbar" aria-label="Project filters">
+          <button class="pill active" data-filter="all">All</button>
+          <button class="pill" data-filter="web">Web</button>
+          <button class="pill" data-filter="ml">ML/AI</button>
+          <button class="pill" data-filter="iot">IoT</button>
+          <button class="pill" data-filter="graphics">Graphics</button>
+        </div>
+
+        <div class="cards" id="projectList">
+          <article class="card project" data-tags="web ml">
+            <div class="thumb" aria-hidden="true">SafePath</div>
+            <div class="body">
+              <h3>Explore Mate-Find your tour partner</h3>
+              <p>ExploreMate is a travel platform that connects like-minded travelers with geolocation-based recommendations, secure bookings, and role-based management for citizens, authorities, and admins.
+</p>
+              
+              <p class="links"><a href="https://github.com/Soccho2003/Explore-Mate-Find-your-tour-partner" target="_blank" rel="noopener">GitHub</a> </p>
+            </div>
+          </article>
+
+          <article class="card project" data-tags="ml">
+            <div class="thumb" aria-hidden="true">ViM</div>
+            <div class="body">
+              <h3>Restaurant Menu System</h3>
+              <p>Customer, cashier, and admin roles; category-based GUI menu with quantity spinners and real-time bill calculation; printable receipt, daily sales report and optional SQLite persistence; clean Swing UI.
+</p>
+              <div class="tagrow"><span class="tag">PyTorch</span><span class="tag">Vision Mamba</span></div>
+              <p class="links"><a href="https://github.com/Soccho2003/Resturant-Menu-System" target="_blank" rel="noopener">Github</a> ·
+            </div>
+          </article>
+
+          <article class="card project" data-tags="iot">
+            <div class="thumb" aria-hidden="true">IoT</div>
+            <div class="body">
+              <h3>SoilSense — IoT Soil Health Monitor</h3>
+              <p>ESP32 + sensors + Telegram bot; NPK/pH prediction, Bangla guidance, OLED/UI.</p>
+              <div class="tagrow"><span class="tag">ESP32</span><span class="tag">DHT11</span><span class="tag">Telegram API</span></div>
+              <p class="links"><a href="https://github.com/Soccho2003/Covid-19-game-using-glut" target="_blank" rel="noopener">GitHub</a></p>
+            </div>
+          </article>
+
+          <article class="card project" data-tags="graphics">
+            <div class="thumb" aria-hidden="true">GLUT</div>
+            <div class="body">
+              <h3>COVID‑19 — GLUT Game</h3>
+              <p>2D arcade with collisions, sanitizer spray mechanic, and power‑ups.</p>
+              <div class="tagrow"><span class="tag">C++</span><span class="tag">OpenGL/GLUT</span></div>
+              <p class="links"><a href="#" target="_blank" rel="noopener">GitHub</a></p>
+            </div>
+          </article>
+
+         
+      </section>
+
+      <!-- Experience (timeline) -->
+      <section id="experience" class="section">
+        <header class="section-head">
+          <h2>Experience</h2>
+          
+        </header>
+        <ol class="timeline">
+          <li class="tli">
+            <div class="dot" aria-hidden="true"></div>
+            <div>
+              <h3>Campus Ambassador — Walton DigiTech LTD. </h3>
+              <p class="meta">february 2024 – Present · Dhaka</p>
+              <p>Walton Digi-Tech is a leading technology brand in Bangladesh, offering innovative solutions in ICT, electronics, and digital devices.
+                 It provides high-quality products such as laptops, desktops, accessories, and smart gadgets at affordable prices.</p>
+            </div>
+          </li>
+
+           <li class="tli">
+            <div class="dot" aria-hidden="true"></div>
+            <div>
+              <h3>Vice President — Jagoroni Kishor Club </h3>
+              <p class="meta">february 2016 – July 2022 · Manikganj</p>
+              <p>Jagoroni Kishor Club is one of the well-known student organizations in Manikganj that inspires young learners to engage in both academic and extracurricular activities.
+The club helps students develop leadership, teamwork, cultural, and sports skills while building confidence and creativity.</p>
+            </div>
+          </li>
+          
+          <li class="tli">
+            <div class="dot" aria-hidden="true"></div>
+            <div>
+              <h3>Correspondent — Dainik Somoyer Barta</h3>
+              <p class="meta">Jan 2020 – Apr 2023</p>
+              <p>Dainik Somoyer Barta is an online Bengali newspaper in Bangladesh offering round-the-clock coverage on national and international news, politics, technology, health, entertainment, sports, and more.</p>
+            </div>
+          </li>
+        </ol>
+      </section>
+
+        
+
+      <!-- Education -->
+      <section id="education" class="section">
+        <header class="section-head">
+          <h2>Education</h2>
+          <p class="muted">Degrees & timeline</p>
+        </header>
+
+        <div class="edu-grid">
+          <!-- Card 1 -->
+          <article class="edu-card">
+            <div class="edu-meta">
+              <div class="range">2023<br>–<br>Present</div>
+              <div class="degree">BSc of<br>Computer Science<br>Engineering</div>
+            </div>
+            <div class="edu-main">
+              <h3 class="edu-title">American International University-Bangladesh (AIUB)</h3>
+              <div class="edu-loc">Dhaka, Bangladesh</div>
+              <p class="edu-desc">American International University-Bangladesh (AIUB), established in 1994, is a leading private university offering undergraduate and graduate programs in engineering, business, computer science, arts, and social sciences. Known for academic excellence, modern facilities, and industry-focused learning, AIUB prepares skilled graduates to succeed locally and globally.
+</p>
+            </div>
+          </article>
+
+          <!-- Card 2 -->
+          <article class="edu-card">
+            <div class="edu-meta">
+              <div class="range">2019<br>–<br>2021</div>
+              <div class="degree">HSC</div>
+            </div>
+            <div class="edu-main">
+              <h3 class="edu-title">Govt Debendra College</h3>
+              <div class="edu-loc">Manikganj, Bangladesh</div>
+              <p class="edu-desc">Govt. Debendra College is a prestigious public institution founded in 1948. The college offers a wide range of academic programs and is well‑regarded for its focus on foundational education at the higher secondary level.</p>
+            </div>
+          </article>
+
+          <!-- Card 3 -->
+          <article class="edu-card">
+            <div class="edu-meta">
+              <div class="range">2014<br>–<br>2019</div>
+              <div class="degree">SSC</div>
+            </div>
+            <div class="edu-main">
+              <h3 class="edu-title">Manikganj Govt. High School</h3>
+              <div class="edu-loc">Manikganj, Bangladesh</div>
+              <p class="edu-desc">Manikganj Govt. High School is a renowned public school offering quality education at the secondary level with a strong reputation for academic excellence and extracurricular activities.</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- Achievements -->
+      <section id="certificates" class="section">
+        <header class="section-head">
+          <h2>Certificates</h2>
+          
+        </header>
+        <div class="cert-grid">
+          <figure class="cert-card">
+            <a href="80629190_758789887937425_3490501998560673792_n.jpg" target="_blank" rel="noopener">
+              <img src="80629190_758789887937425_3490501998560673792_n.jpg" alt="Microsoft Certified: Azure Administrator certificate" loading="lazy" />
+            </a>
+            <figcaption class="caption"><strong>Champion, National Science Fair 2018</strong><br><span class="muted"></span></figcaption>
+          </figure>
+          <figure class="cert-card">
+            <a href="80971636_758790261270721_547226851244769280_n.jpg" target="_blank" rel="noopener">
+              <img src="80971636_758790261270721_547226851244769280_n.jpg" alt="Azure Solutions Architect Expert certificate" loading="lazy" />
+            </a>
+            <figcaption class="caption"><strong>Champion,National Science Fair(District Phase)</strong><br><span class="muted"></span></figcaption>
+          </figure>
+          <figure class="cert-card">
+            <a href="81483082_758790161270731_1322464110255800320_n.jpg" target="_blank" rel="noopener">
+              <img src="80584737_758790027937411_3181757282350268416_n.jpg" alt="Fortinet NSE 2 certificate" loading="lazy" />
+            </a>
+            <figcaption class="caption"><strong>Champion, National Debate Compitetion</strong><br><span class="muted"></span></figcaption>
+          </figure>
+        </div>
+      </section>
+
+      
+
+     
+
+      <!-- Contact -->
+      <section id="contact" class="section">
+        <header class="section-head">
+          <h2>Contact</h2>
+          <p class="muted">Let’s build something together</p>
+        </header>
+        <div class="contact-grid">
+          <form id="contactForm" class="card" novalidate>
+            <label> Name <input type="text" name="name" required placeholder="Your name" /></label>
+            <label> Email <input type="email" name="email" required placeholder="you@example.com" /></label>
+            <label> Message <textarea name="message" required placeholder="Write your message..."></textarea></label>
+            <button class="btn btn-primary" type="submit">Send Message</button>
+            <p id="formMsg" class="muted" aria-live="polite"></p>
+          </form>
+          <aside class="card">
+            <h3>Quick Info</h3>
+            <ul class="mini">
+              <li><strong>Email:</strong> raiyanbinalam17@gmail.com</li>
+              <li><strong>Location:</strong> Dhaka, Bangladesh</li>
+              <li><strong>Phone:</strong> +880-1601894423</li>
+            </ul>
+          </aside>
+        </div>
+      </section>
+
+      <!-- Let's Connect (final section) -->
+      <section id="connect" class="section connect">
+        <header class="connect-head">
+          <h2>Let’s Connect!</h2>
+          <p class="muted">Have a question, project, or just want to say hello?</p>
+        </header>
+
+        <div class="connect-grid">
+          <article class="connect-card">
+            <h3>💬 A Thought</h3>
+            <p>"Success doesn't come from what you do occasionally. It comes from what you do consistently."<br>— Keep showing up, learning, and improving. That’s how greatness is built.</p>
+          </article>
+
+          <article class="connect-card">
+            <h3>📞 Reach Me</h3>
+            <ul class="reach">
+              <li><strong>Email:</strong> <a href="raiyanbinalam17@gmail.com">raiyanbinalam17@gmail.com</a></li>
+              <li><strong>Phone:</strong> <a href="tel:+8801601894423">01601894423</a></li>
+              <li><strong>Website:</strong> <a href="https://raiyanbinalam.com" target="_blank" rel="noopener">raiyanbinalam.com</a></li>
+              <li><strong>Facebook:</strong> <a href="https://facebook.com/raiyanbinalam" target="_blank" rel="noopener">facebook.com/raiyanbinalam</a></li>
+              <li><strong>Instagram:</strong> <a href="https://instagram.com/s_o_c_c_h_o" target="_blank" rel="noopener">instagram.com/SOccho</a></li>
+            </ul>
+          </article>
+        </div>
+
+        <div class="connect-cta">
+          <a href="#contact" class="cta-large">MESSAGE ME</a>
+        </div>
+      </section>
+
+      
+      <button id="backToTop" class="fab" aria-label="Back to top">↑</button>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+<!-- ========== 2) styles.css ========== -->
+

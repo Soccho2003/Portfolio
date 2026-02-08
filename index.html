@@ -18,9 +18,11 @@
     <aside class="sidebar" aria-label="Sidebar">
       <button class="hamburger" id="menuToggle" aria-label="Toggle menu" aria-expanded="false">☰</button>
       <div class="profile">
-        
-        <h1 class="name">Raiyan Bin Alan</h1>
-        <p class="role">Engineering Student</p>
+  <img src="433040271_1789752861507784_6356034157016808408_n.jpg" alt="Raiyan Bin Alam" class="profile-img" />
+
+  <h1 class="name">Raiyan Bin Alam</h1>
+  <p class="role">Engineering Student</p>
+
         <div class="socials">
           <a href="https://github.com/Soccho2003" target="_blank" rel="noopener" aria-label="GitHub">GitHub</a>
           
@@ -37,6 +39,8 @@
         <a href="#experience">Experience</a>
         <a href="#education">Education</a>
         <a href="#certificates">Certificates</a>
+        <a href="#publications">Publications</a>
+
         
         <a href="#contact">Contact</a>
       </nav>
@@ -58,7 +62,7 @@
         <div class="about-grid">
           <div>
             <h3 class="headline">Hello! I’m <span class="grad">Raiyan Bin Alam</span> — An engineering student</h3>
-            <p>I’m an Engineering student passionate about transforming ideas into real prototypes. Interested in embedded systems, IoT, and applied machine learning. Focused on building innovative solutions for agriculture and healthcare.</p>
+            <p>I’m an Engineering student passionate about transforming ideas into real prototypes, with interests in embedded systems, IoT, and applied machine learning. Alongside my technical work, I am also a social worker, actively engaged in community service and humanitarian initiatives, focusing on impactful solutions for agriculture and healthcare.</p>
             <ul class="bullets">
               <li>Focus: Web, IoT, ML/AI</li>
               <li>Location: Dhaka, Bangladesh</li>
@@ -132,6 +136,58 @@
         </div>
       </section>
 
+       <!-- Education -->
+      <section id="education" class="section">
+        <header class="section-head">
+          <h2>Education</h2>
+          <p class="muted">Degrees & timeline</p>
+        </header>
+
+        <div class="edu-grid">
+          <!-- Card 1 -->
+          <article class="edu-card">
+            <div class="edu-meta">
+              <div class="range">2023<br>–<br>Present</div>
+              <div class="degree">BSc of<br>Computer Science<br>Engineering</div>
+            </div>
+            <div class="edu-main">
+              <h3 class="edu-title">American International University-Bangladesh (AIUB)</h3>
+              <div class="edu-loc">Dhaka, Bangladesh</div>
+              <p class="edu-desc">American International University-Bangladesh (AIUB), founded in 1994, is a top private university offering programs in engineering, business, computer science, arts, and social sciences, known for quality education and industry-focused learning.
+
+</p>
+            </div>
+          </article>
+
+          <!-- Card 2 -->
+          <article class="edu-card">
+            <div class="edu-meta">
+              <div class="range">2019<br>–<br>2021</div>
+              <div class="degree">HSC</div>
+            </div>
+            <div class="edu-main">
+              <h3 class="edu-title">Govt Debendra College</h3>
+              <div class="edu-loc">Manikganj, Bangladesh</div>
+              <p class="edu-desc">Govt. Debendra College is a prestigious public institution founded in 1948. The college offers a wide range of academic programs and is well‑regarded for its focus on foundational education at the higher secondary level.</p>
+            </div>
+          </article>
+
+          <!-- Card 3 -->
+          <article class="edu-card">
+            <div class="edu-meta">
+              <div class="range">2014<br>–<br>2019</div>
+              <div class="degree">SSC</div>
+            </div>
+            <div class="edu-main">
+              <h3 class="edu-title">Manikganj Govt. High School</h3>
+              <div class="edu-loc">Manikganj, Bangladesh</div>
+              <p class="edu-desc">Manikganj Govt. High School is a renowned public school offering quality education at the secondary level with a strong reputation for academic excellence and extracurricular activities.</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+
       <!-- Projects (filterable) -->
       <section id="projects" class="section">
         <header class="section-head">
@@ -148,47 +204,93 @@
         </div>
 
         <div class="cards" id="projectList">
-          <article class="card project" data-tags="web ml">
-            <div class="thumb" aria-hidden="true">SafePath</div>
-            <div class="body">
-              <h3>Explore Mate-Find your tour partner</h3>
-              <p>ExploreMate is a travel platform that connects like-minded travelers with geolocation-based recommendations, secure bookings, and role-based management for citizens, authorities, and admins.
-</p>
-              
-              <p class="links"><a href="https://github.com/Soccho2003/Explore-Mate-Find-your-tour-partner" target="_blank" rel="noopener">GitHub</a> </p>
-            </div>
-          </article>
+          <article class="card project" data-tags="web ml" style="display: flex; align-items: center; gap: 20px;">
+  <!-- Image on the left side -->
+  <div class="thumb" aria-hidden="true" style="flex: 1;">
+    <img src="images.jpg" alt="Explore Mate Tour Platform" style="width: 100%; height: auto; border-radius: 8px;" />
+  </div>
 
-          <article class="card project" data-tags="ml">
-            <div class="thumb" aria-hidden="true">ViM</div>
-            <div class="body">
-              <h3>Restaurant Menu System</h3>
-              <p>Customer, cashier, and admin roles; category-based GUI menu with quantity spinners and real-time bill calculation; printable receipt, daily sales report and optional SQLite persistence; clean Swing UI.
-</p>
-              <div class="tagrow"><span class="tag">PyTorch</span><span class="tag">Vision Mamba</span></div>
-              <p class="links"><a href="https://github.com/Soccho2003/Resturant-Menu-System" target="_blank" rel="noopener">Github</a> ·
-            </div>
-          </article>
+  <!-- Text on the right side -->
+  <div class="body" style="flex: 2;">
+    <h3>Explore Mate - Find Your Tour Partner</h3>
+    <p>
+      ExploreMate is a travel platform that connects like-minded travelers with geolocation-based recommendations, secure bookings, and role-based management for citizens, authorities, and admins.
+    </p>
+    <p class="links">
+      <a href="https://github.com/Soccho2003/Explore-Mate-Find-your-tour-partner" target="_blank" rel="noopener">GitHub</a>
+    </p>
+  </div>
+</article>
 
-          <article class="card project" data-tags="iot">
-            <div class="thumb" aria-hidden="true">IoT</div>
-            <div class="body">
-              <h3>SoilSense — IoT Soil Health Monitor</h3>
-              <p>ESP32 + sensors + Telegram bot; NPK/pH prediction, Bangla guidance, OLED/UI.</p>
-              <div class="tagrow"><span class="tag">ESP32</span><span class="tag">DHT11</span><span class="tag">Telegram API</span></div>
-              <p class="links"><a href="https://github.com/Soccho2003/Covid-19-game-using-glut" target="_blank" rel="noopener">GitHub</a></p>
-            </div>
-          </article>
 
-          <article class="card project" data-tags="graphics">
-            <div class="thumb" aria-hidden="true">GLUT</div>
-            <div class="body">
-              <h3>COVID‑19 — GLUT Game</h3>
-              <p>2D arcade with collisions, sanitizer spray mechanic, and power‑ups.</p>
-              <div class="tagrow"><span class="tag">C++</span><span class="tag">OpenGL/GLUT</span></div>
-              <p class="links"><a href="#" target="_blank" rel="noopener">GitHub</a></p>
-            </div>
-          </article>
+        <!-- Restaurant Menu System -->
+<article class="card project" data-tags="ml" style="display: flex; align-items: center; gap: 20px; margin-bottom: 20px;">
+  <!-- Image on the left -->
+  <div class="thumb" aria-hidden="true" style="flex: 1;">
+    <img src="download.jpg" alt="Restaurant Menu System" style="width: 100%; height: auto; border-radius: 8px;" />
+  </div>
+
+  <!-- Text on the right -->
+  <div class="body" style="flex: 2;">
+    <h3>Restaurant Menu System</h3>
+    <p>
+      Customer, cashier, and admin roles; category-based GUI menu with quantity spinners and real-time bill calculation; printable receipt, daily sales report, and optional SQLite persistence; clean Swing UI.
+    </p>
+    <div class="tagrow">
+      <span class="tag">PyTorch</span>
+      <span class="tag">Vision Mamba</span>
+    </div>
+    <p class="links">
+      <a href="https://github.com/Soccho2003/Resturant-Menu-System" target="_blank" rel="noopener">GitHub</a>
+    </p>
+  </div>
+</article>
+
+      <!-- MarketMingle -->
+<article class="card project" data-tags="iot" style="display: flex; align-items: center; gap: 20px; margin-bottom: 20px;">
+  <!-- Image on the left -->
+  <div class="thumb" aria-hidden="true" style="flex: 1;">
+    <img src="download (1).jpg" alt="MarketMingle Platform" style="width: 100%; height: auto; border-radius: 8px;" />
+  </div>
+
+  <!-- Text on the right -->
+  <div class="body" style="flex: 2;">
+    <h3>MarketMingle</h3>
+    <p>
+      MarketMingle is a web-based e-commerce platform that enables users to browse products, manage carts, and make purchases through a secure online system.
+    </p>
+    <div class="tagrow">
+      <span class="tag">PHP</span>
+      <span class="tag">HTML</span>
+      <span class="tag">CSS</span>
+    </div>
+    <p class="links">
+      <a href="https://github.com/Soccho2003/MarketMingle" target="_blank" rel="noopener">GitHub</a>
+    </p>
+  </div>
+</article>
+
+         <article class="card project" data-tags="graphics" style="display: flex; align-items: center; gap: 20px; margin-bottom: 20px;">
+  <!-- Image on the left -->
+  <div class="thumb" aria-hidden="true" style="flex: 1;">
+    <img src="download (2).jpg" alt="COVID-19 GLUT Game" style="width: 100%; height: auto; border-radius: 8px;" />
+  </div>
+
+  <!-- Text on the right -->
+  <div class="body" style="flex: 2;">
+    <h3>COVID‑19 — GLUT Game</h3>
+    <p>
+      2D arcade with collisions, sanitizer spray mechanic, and power‑ups.
+    </p>
+    <div class="tagrow">
+      <span class="tag">C++</span>
+      <span class="tag">OpenGL/GLUT</span>
+    </div>
+    <p class="links">
+      <a href="#" target="_blank" rel="noopener">GitHub</a>
+    </p>
+  </div>
+</article>
 
          
       </section>
@@ -233,83 +335,116 @@ The club helps students develop leadership, teamwork, cultural, and sports skill
 
         
 
-      <!-- Education -->
-      <section id="education" class="section">
-        <header class="section-head">
-          <h2>Education</h2>
-          <p class="muted">Degrees & timeline</p>
-        </header>
+     
 
-        <div class="edu-grid">
-          <!-- Card 1 -->
-          <article class="edu-card">
-            <div class="edu-meta">
-              <div class="range">2023<br>–<br>Present</div>
-              <div class="degree">BSc of<br>Computer Science<br>Engineering</div>
-            </div>
-            <div class="edu-main">
-              <h3 class="edu-title">American International University-Bangladesh (AIUB)</h3>
-              <div class="edu-loc">Dhaka, Bangladesh</div>
-              <p class="edu-desc">American International University-Bangladesh (AIUB), established in 1994, is a leading private university offering undergraduate and graduate programs in engineering, business, computer science, arts, and social sciences. Known for academic excellence, modern facilities, and industry-focused learning, AIUB prepares skilled graduates to succeed locally and globally.
-</p>
-            </div>
-          </article>
+      <section id="publications" class="section">
+  <header class="section-head">
+    <h2>Publications</h2>
+    <p class="muted">Research work & DOI</p>
+  </header>
 
-          <!-- Card 2 -->
-          <article class="edu-card">
-            <div class="edu-meta">
-              <div class="range">2019<br>–<br>2021</div>
-              <div class="degree">HSC</div>
-            </div>
-            <div class="edu-main">
-              <h3 class="edu-title">Govt Debendra College</h3>
-              <div class="edu-loc">Manikganj, Bangladesh</div>
-              <p class="edu-desc">Govt. Debendra College is a prestigious public institution founded in 1948. The college offers a wide range of academic programs and is well‑regarded for its focus on foundational education at the higher secondary level.</p>
-            </div>
-          </article>
+  <article class="card publication">
+    <h3>SoilSense: An IoT-Based Soil Health Monitoring System for Smallholder Farmers in Bangladesh to Support Sustainable Agriculture</h3>
+    <p class="meta">
+      Raiyan Bin Alam · 2025
+    </p>
+    <p class="pub-desc">
+      This study proposes a low-cost IoT system aimed at helping smallholder farmers monitor soil health and improve decision-making for sustainable agriculture.
+    </p>
 
-          <!-- Card 3 -->
-          <article class="edu-card">
-            <div class="edu-meta">
-              <div class="range">2014<br>–<br>2019</div>
-              <div class="degree">SSC</div>
-            </div>
-            <div class="edu-main">
-              <h3 class="edu-title">Manikganj Govt. High School</h3>
-              <div class="edu-loc">Manikganj, Bangladesh</div>
-              <p class="edu-desc">Manikganj Govt. High School is a renowned public school offering quality education at the secondary level with a strong reputation for academic excellence and extracurricular activities.</p>
-            </div>
-          </article>
-        </div>
-      </section>
+    <p class="pub-links">
+      <strong>DOI:</strong>
+      <a href="https://doi.org/10.1109/EICT68394.2025.11355612" target="_blank" rel="noopener">
+       https://doi.org/10.1109/EICT68394.2025.11355612
+      </a>
+    </p>
+  </article>
+</section>
 
-      <!-- Achievements -->
-      <section id="certificates" class="section">
-        <header class="section-head">
-          <h2>Certificates</h2>
-          
-        </header>
-        <div class="cert-grid">
-          <figure class="cert-card">
-            <a href="80629190_758789887937425_3490501998560673792_n.jpg" target="_blank" rel="noopener">
-              <img src="80629190_758789887937425_3490501998560673792_n.jpg" alt="Microsoft Certified: Azure Administrator certificate" loading="lazy" />
-            </a>
-            <figcaption class="caption"><strong>Champion, National Science Fair 2018</strong><br><span class="muted"></span></figcaption>
-          </figure>
-          <figure class="cert-card">
-            <a href="80971636_758790261270721_547226851244769280_n.jpg" target="_blank" rel="noopener">
-              <img src="80971636_758790261270721_547226851244769280_n.jpg" alt="Azure Solutions Architect Expert certificate" loading="lazy" />
-            </a>
-            <figcaption class="caption"><strong>Champion,National Science Fair(District Phase)</strong><br><span class="muted"></span></figcaption>
-          </figure>
-          <figure class="cert-card">
-            <a href="81483082_758790161270731_1322464110255800320_n.jpg" target="_blank" rel="noopener">
-              <img src="80584737_758790027937411_3181757282350268416_n.jpg" alt="Fortinet NSE 2 certificate" loading="lazy" />
-            </a>
-            <figcaption class="caption"><strong>Champion, National Debate Compitetion</strong><br><span class="muted"></span></figcaption>
-          </figure>
-        </div>
-      </section>
+
+    <!-- Achievements -->
+<section id="certificates" class="section">
+  <header class="section-head">
+    <h2>Certificates</h2>
+  </header>
+
+  <div class="cert-grid">
+
+    <figure class="cert-card">
+      <a href="WhatsApp Image 2026-02-08 at 9.26.44 PM.jpeg" target="_blank" rel="noopener">
+        <img src="WhatsApp Image 2026-02-08 at 9.26.44 PM.jpeg"
+             alt="Campus Champion, Walton DigiTech LTD"
+             loading="lazy">
+      </a>
+      <figcaption class="caption">
+        <strong>Campus Champion, Walton DigiTech LTD</strong>
+      </figcaption>
+    </figure>
+
+    <figure class="cert-card">
+      <a href="80629190_758789887937425_3490501998560673792_n.jpg" target="_blank" rel="noopener">
+        <img src="80629190_758789887937425_3490501998560673792_n.jpg"
+             alt="Champion, National Science Fair 2018"
+             loading="lazy">
+      </a>
+      <figcaption class="caption">
+        <strong>Champion, National Science Fair 2018</strong>
+      </figcaption>
+    </figure>
+
+    <figure class="cert-card">
+      <a href="80971636_758790261270721_547226851244769280_n.jpg" target="_blank" rel="noopener">
+        <img src="80971636_758790261270721_547226851244769280_n.jpg"
+             alt="Champion, National Science Fair (District Phase)"
+             loading="lazy">
+      </a>
+      <figcaption class="caption">
+        <strong>Champion, National Science Fair (District Phase)</strong>
+      </figcaption>
+    </figure>
+
+    <figure class="cert-card">
+      <a href="80584737_758790027937411_3181757282350268416_n.jpg" target="_blank" rel="noopener">
+        <img src="81483082_758790161270731_1322464110255800320_n.jpg"
+             alt="3rd, National Science Fair 2017"
+             loading="lazy">
+      </a>
+      <figcaption class="caption">
+        <strong>Champion, National Debate Competition</strong>
+      </figcaption>
+    </figure>
+
+  </div>
+</section>
+
+
+      <!-- Social Work / Community Service Section -->
+<section id="social-work" class="section">
+  <header class="section-head">
+    <h2>Social Work & Community Service</h2>
+    <p class="muted">Glimpses of my contributions and volunteer work</p>
+  </header>
+
+  <div class="social-grid">
+    <figure class="social-card">
+      <img src="487206455_2056922838124117_1692749407257158964_n.jpg" alt="Flood relief activity" loading="lazy" />
+      <figcaption class="caption">Flood relief distribution — Walton Computer initiative</figcaption>
+    </figure>
+    <figure class="social-card">
+      <img src="117241656_922287351587677_2198294479723516920_n.jpg" alt="Community cleaning program" loading="lazy" />
+      <figcaption class="caption">Providing food and essentials to affected families during COVID-19.</figcaption>
+    </figure>
+    <figure class="social-card">
+      <img src="104824164_886670208482725_4065841020607285635_n.jpg" alt="Tree plantation event" loading="lazy" />
+      <figcaption class="caption">Invited Guest at the Prize-Giving Ceremony</figcaption>
+    </figure>
+    <figure class="social-card">
+      <img src="123097166_980610915755320_905596911872408438_n.jpg" alt="Helping local school students" loading="lazy" />
+      <figcaption class="caption">Invited as Chief Guest at the Award-Giving Ceremony for Outstanding Results.</figcaption>
+    </figure>
+  </div>
+</section>
+
 
       
 
